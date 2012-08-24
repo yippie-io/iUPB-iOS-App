@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2B6629D15E81937006C3F6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B6629C15E81937006C3F6B /* UIKit.framework */; };
+		E2B6629F15E81937006C3F6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B6629E15E81937006C3F6B /* Foundation.framework */; };
+		E2B662A115E81937006C3F6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B662A015E81937006C3F6B /* CoreGraphics.framework */; };
+		E2B662A715E81937006C3F6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2B662A515E81937006C3F6B /* InfoPlist.strings */; };
+		E2B662A915E81937006C3F6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B662A815E81937006C3F6B /* main.m */; };
+		E2B662AD15E81937006C3F6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B662AC15E81937006C3F6B /* AppDelegate.m */; };
+		E2B662B015E81937006C3F6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B662AF15E81937006C3F6B /* ViewController.m */; };
+		E2B662B315E81937006C3F6B /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2B662B115E81937006C3F6B /* ViewController_iPhone.xib */; };
+		E2B662B615E81937006C3F6B /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2B662B415E81937006C3F6B /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E2B6629815E81937006C3F6B /* iUPB-Lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iUPB-Lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B6629C15E81937006C3F6B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E2B6629E15E81937006C3F6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E2B662A015E81937006C3F6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E2B662A415E81937006C3F6B /* iUPB-Lite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iUPB-Lite-Info.plist"; sourceTree = "<group>"; };
+		E2B662A615E81937006C3F6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E2B662A815E81937006C3F6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2B662AA15E81937006C3F6B /* iUPB-Lite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iUPB-Lite-Prefix.pch"; sourceTree = "<group>"; };
+		E2B662AB15E81937006C3F6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2B662AC15E81937006C3F6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E2B662AE15E81937006C3F6B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E2B662AF15E81937006C3F6B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E2B662B215E81937006C3F6B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		E2B662B515E81937006C3F6B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2B6629515E81937006C3F6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B6629D15E81937006C3F6B /* UIKit.framework in Frameworks */,
+				E2B6629F15E81937006C3F6B /* Foundation.framework in Frameworks */,
+				E2B662A115E81937006C3F6B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2B6628D15E81937006C3F6B = {
+			isa = PBXGroup;
+			children = (
+				E2B662A215E81937006C3F6B /* iUPB-Lite */,
+				E2B6629B15E81937006C3F6B /* Frameworks */,
+				E2B6629915E81937006C3F6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2B6629915E81937006C3F6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2B6629815E81937006C3F6B /* iUPB-Lite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2B6629B15E81937006C3F6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2B6629C15E81937006C3F6B /* UIKit.framework */,
+				E2B6629E15E81937006C3F6B /* Foundation.framework */,
+				E2B662A015E81937006C3F6B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2B662A215E81937006C3F6B /* iUPB-Lite */ = {
+			isa = PBXGroup;
+			children = (
+				E2B662AB15E81937006C3F6B /* AppDelegate.h */,
+				E2B662AC15E81937006C3F6B /* AppDelegate.m */,
+				E2B662AE15E81937006C3F6B /* ViewController.h */,
+				E2B662AF15E81937006C3F6B /* ViewController.m */,
+				E2B662B115E81937006C3F6B /* ViewController_iPhone.xib */,
+				E2B662B415E81937006C3F6B /* ViewController_iPad.xib */,
+				E2B662A315E81937006C3F6B /* Supporting Files */,
+			);
+			path = "iUPB-Lite";
+			sourceTree = "<group>";
+		};
+		E2B662A315E81937006C3F6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2B662A415E81937006C3F6B /* iUPB-Lite-Info.plist */,
+				E2B662A515E81937006C3F6B /* InfoPlist.strings */,
+				E2B662A815E81937006C3F6B /* main.m */,
+				E2B662AA15E81937006C3F6B /* iUPB-Lite-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2B6629715E81937006C3F6B /* iUPB-Lite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2B662B915E81937006C3F6B /* Build configuration list for PBXNativeTarget "iUPB-Lite" */;
+			buildPhases = (
+				E2B6629415E81937006C3F6B /* Sources */,
+				E2B6629515E81937006C3F6B /* Frameworks */,
+				E2B6629615E81937006C3F6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iUPB-Lite";
+			productName = "iUPB-Lite";
+			productReference = E2B6629815E81937006C3F6B /* iUPB-Lite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2B6628F15E81937006C3F6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Dirk Schumacher";
+			};
+			buildConfigurationList = E2B6629215E81937006C3F6B /* Build configuration list for PBXProject "iUPB-Lite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E2B6628D15E81937006C3F6B;
+			productRefGroup = E2B6629915E81937006C3F6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2B6629715E81937006C3F6B /* iUPB-Lite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2B6629615E81937006C3F6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B662A715E81937006C3F6B /* InfoPlist.strings in Resources */,
+				E2B662B315E81937006C3F6B /* ViewController_iPhone.xib in Resources */,
+				E2B662B615E81937006C3F6B /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2B6629415E81937006C3F6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B662A915E81937006C3F6B /* main.m in Sources */,
+				E2B662AD15E81937006C3F6B /* AppDelegate.m in Sources */,
+				E2B662B015E81937006C3F6B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E2B662A515E81937006C3F6B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2B662A615E81937006C3F6B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E2B662B115E81937006C3F6B /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2B662B215E81937006C3F6B /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		E2B662B415E81937006C3F6B /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2B662B515E81937006C3F6B /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2B662B715E81937006C3F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2B662B815E81937006C3F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2B662BA15E81937006C3F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iUPB-Lite/iUPB-Lite-Prefix.pch";
+				INFOPLIST_FILE = "iUPB-Lite/iUPB-Lite-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E2B662BB15E81937006C3F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iUPB-Lite/iUPB-Lite-Prefix.pch";
+				INFOPLIST_FILE = "iUPB-Lite/iUPB-Lite-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2B6629215E81937006C3F6B /* Build configuration list for PBXProject "iUPB-Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B662B715E81937006C3F6B /* Debug */,
+				E2B662B815E81937006C3F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2B662B915E81937006C3F6B /* Build configuration list for PBXNativeTarget "iUPB-Lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B662BA15E81937006C3F6B /* Debug */,
+				E2B662BB15E81937006C3F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2B6628F15E81937006C3F6B /* Project object */;
+}
