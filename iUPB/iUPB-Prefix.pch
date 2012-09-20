@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'iUPB-Lite' target in the 'iUPB-Lite' project
+// Prefix header for all source files of the 'iUPB' target in the 'iUPB' project
 //
 
 #import <Availability.h>

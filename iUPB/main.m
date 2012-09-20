@@ -1,8 +1,8 @@
 //
 //  main.m
-//  iUPB-Lite
+//  iUPB
 //
-//  Created by Dirk Schumacher on 24.08.12.
+//  Created by Dirk Schumacher on 25.08.12.
 //  Copyright (c) 2012 Dirk Schumacher. All rights reserved.
 //
 
