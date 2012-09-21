@@ -11,6 +11,10 @@
 
 @end
 
+//thanks: http://www.iphonedevsdk.com/forum/business-legal-app-store/107812-so-how-do-we-deal-with-dimensions-of-existing-apps-re-iphone-5.html
+#define IS_SHORT_IPHONE()	([UIScreen mainScreen].bounds.size.height == 480)
+#define IS_TALL_IPHONE()	([UIScreen mainScreen].bounds.size.height == 568)
+
 @implementation ViewController
 @synthesize webView;
 @synthesize splash;
@@ -19,7 +23,7 @@
     [super viewDidLoad];
     
     //timout
-    float timeout = 20.0f;
+    float timeout = 40.0f;
     
     NSString *urlAddress = @"http://www.i-upb.de/de";
         
@@ -88,9 +92,13 @@
         [self setSplashScreenImage];
 }
 -(void) setSplashScreenImage {
-    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone){
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone && IS_SHORT_IPHONE() ){
         //[[UIApplication sharedApplication] setStatusBarHidden:YES animated:YES];
         splash.image = [UIImage imageNamed:@"Default.png"];
+    }
+    else if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone && IS_TALL_IPHONE()){
+        //[[UIApplication sharedApplication] setStatusBarHidden:YES animated:YES];
+        splash.image = [UIImage imageNamed:@"Default-568h.png"];
     }
     else {
         if (UIDeviceOrientationIsPortrait([[UIDevice currentDevice] orientation]) )
@@ -108,7 +116,7 @@
 }
 -(void) webViewDidStartLoad:(UIWebView *)webView {
     [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
-    timer = [NSTimer scheduledTimerWithTimeInterval:20.0 target:self selector:@selector(cancelWeb) userInfo:nil repeats:NO];
+    //timer = [NSTimer scheduledTimerWithTimeInterval:40.0 target:self selector:@selector(cancelWeb) userInfo:nil repeats:NO];
 }
 -(void) webViewDidFinishLoad:(UIWebView *)webView {
     
@@ -123,7 +131,7 @@
         self.view.userInteractionEnabled = YES;
     });
     [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
-    [timer invalidate];
+    //[timer invalidate];
 }
 -(BOOL) webView:(UIWebView *)inWeb shouldStartLoadWithRequest:(NSURLRequest *)inRequest navigationType:(UIWebViewNavigationType)inType {
     NSRange range = [[[inRequest URL] absoluteString] rangeOfString:@"www.i-upb.de"
