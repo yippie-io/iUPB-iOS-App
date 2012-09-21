@@ -92,6 +92,7 @@
         [self setSplashScreenImage];
 }
 -(void) setSplashScreenImage {
+<<<<<<< HEAD
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone && IS_SHORT_IPHONE() ){
         //[[UIApplication sharedApplication] setStatusBarHidden:YES animated:YES];
         splash.image = [UIImage imageNamed:@"Default.png"];
@@ -100,6 +101,12 @@
         //[[UIApplication sharedApplication] setStatusBarHidden:YES animated:YES];
         splash.image = [UIImage imageNamed:@"Default-568h.png"];
     }
+=======
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone){
+        //[[UIApplication sharedApplication] setStatusBarHidden:YES animated:YES];
+        splash.image = [UIImage imageNamed:@"Default.png"];
+    }
+>>>>>>> 9abe4870f8154e0788d9128c21df15bcdf4fd082
     else {
         if (UIDeviceOrientationIsPortrait([[UIDevice currentDevice] orientation]) )
             splash.image = [UIImage imageNamed:@"Default-Portrait.png"];
